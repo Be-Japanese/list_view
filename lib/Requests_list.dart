@@ -27,7 +27,7 @@ class _requestListState extends State<requestList> {
 
       widget.request_list.add(Request_model(username: "username", request: "request", datetime: DateTime.now(), requestPhoto: acc, userprofile: str));
     });
-  }
+}
 
 
   @override
